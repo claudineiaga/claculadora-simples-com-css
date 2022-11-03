@@ -1,0 +1,122 @@
+#visor{
+    width: 296px;
+    border-bottom: 2px #6f6f6f;
+    border-bottom-color: #85C1E9;
+    background-color: #dae5ec;
+}
+body{
+    background-color: #59b6b6;
+}
+table{
+    margin: auto;
+    background-color: #6f56df;
+    width: 295px;
+    height: 325px;
+    max-width: 295px;
+    text-align: center;
+    border-radius: 4px;
+    padding-right: 10px;
+    border-color: #3516be;
+}
+input{
+    font-weight: bold;
+    outline: 0;
+    position: relative;
+    left: 5px;
+    top: 
+    5px;
+    border: 0;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px rgb(26, 19, 121);
+    margin-bottom: 15px;
+}
+input:hover{
+    border: 0 solid #000;
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: 0 4px #b0d2cf;
+}
+#input:active{
+    top:4px;
+    border: 0 solid rgb(20, 57, 138);
+    color: #495069;
+    background-color: #fff;
+    border-radius: 4px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    margin: 5px;
+    font-size: 20px;
+    box-shadow: none;
+}
+#display{
+    width: 265px;
+    max-width: 270;
+    font-size: 50px;
+    text-align: right;
+    background-color: #bcbd95;
+    float: right;
+}
+#display:hover{
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    box-shadow: 0 4px rgb(42, 36, 0.2);
+}
+#display:active{
+    top: 5px;
+    width: 270px;
+    font-size: 26px;
+    text-align: right;
+    background-color: #bcbd95;
+    box-shadow: 0 4px rgb(0, 0, 0, 0.2);
+}
+.operador{
+    background-color: #abe8eb;
+    position: relative;
+}
+.operador:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+#limpar{
+    float: left;
+    position: relative;
+    display: block;
+    background-color: #afb3f1;
+}
+#limpar:hover{
+    float: left;
+    top: 10px;
+    display: block;
+    background-color: #97bef2;
+    margin-bottom: 15px;
+    box-shadow: 0 4px #8493e7;
+}
+#limpar:active{
+    float: left;
+    top: 4px;
+    display: block;
+    background-color: #7877db;
+    margin-bottom: 15px;
+    box-shadow: none;
+}
+h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
